@@ -1,7 +1,7 @@
 //04/08/2026
 import {test,expect} from '@playwright/test'
 //only and skip can be used 
-test.describe.skip("personalDetails",async()=>{
+test.describe("personalDetails",async()=>{
     test("personal",async()=>{
         console.log("personal detail form");
     })
